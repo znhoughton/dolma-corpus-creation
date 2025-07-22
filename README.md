@@ -8,4 +8,4 @@ Next, modify the scripts/Dolma_corpus_creation.py file to create the appropriate
 
 Thirdly, run check_corpus_integrity.py, once again changing the function to match whether you created a onegram, bigram, or trigram corpus. This script ensures that none of the .gz files are corrupted.
 
-Finally, you can use the corpus_search.py function to search for whatever you want. Currently this script takes as its input a .csv file of ngrams that you would like to search and returns frequencies for them.
+Finally, you can use the corpus_search.py script to search for whatever you want. Currently this script takes as its input a .csv file of ngrams that you would like to search and returns frequencies for them.
